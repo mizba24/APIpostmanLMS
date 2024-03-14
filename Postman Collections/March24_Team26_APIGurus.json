@@ -1938,7 +1938,7 @@
 										"exec": [
 											"\r",
 											"const response=pm.response.json();\r",
-											"var expectedBatch=pm.iterationData.get(\"program\");\r",
+											"//var expectedBatch=pm.iterationData.get(\"program\");\r",
 											"\r",
 											"pm.collectionVariables.set(\"batchID\", response.batchId);\r",
 											"pm.collectionVariables.set(\"batchName\", response.batchName);\r",
